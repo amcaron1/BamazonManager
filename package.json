@@ -1,0 +1,27 @@
+{
+  "name": "bamazonmanager",
+  "version": "1.0.0",
+  "description": "Allows a manager to display all products, display low inventory products, change quantity of a product, add a product, delete a product, display sales info, and add a department",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amcaron1/BamazonManager.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amcaron1/BamazonManager/issues"
+  },
+  "homepage": "https://github.com/amcaron1/BamazonManager#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "util": "^0.12.3"
+  }
+}

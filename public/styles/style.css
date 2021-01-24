@@ -1,0 +1,54 @@
+.floatRight {
+    float: right;
+}
+
+th, td {
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+th {
+    line-height: 30px;
+}
+
+h1 {
+    color: #cc0000;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*Clears the floatRight*/
+.floatFix:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.price, .quantity, .overhead, .sales, .profit {
+    text-align: center;
+}
+
+.center-header {
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+}
+
+
+.center-button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.stockQuantity {
+    padding-left: 20px;
+}
+
+.modal-input {
+    margin-bottom: 10px;
+}

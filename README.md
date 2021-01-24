@@ -1,1 +1,66 @@
 # BamazonManager
+
+- Overview
+    - Displays all of the products
+    - Gives the manager a list of options and calls the appropriate function based on the choice
+        - View All Products: Displays all of the products
+        - View Low Inventory: Displays all of the products with quantity less than or equal to 10
+        - Change Quantity: Allows manager to change the quantity of an item
+        - Add New Product: Allows manager to add a new product
+        - Delete Product: Allows manager to delete a product
+        - View Product Sales by Department: Creates a table made up of the department table plus product sales and total profit by department
+        - Create New Department: Allows manager to add a new department to the department table
+
+- Bug fixes
+    - Restrict inputs - DONE
+        - Item ID must be valid
+        - Product name must not be blank
+        - Department name must not be blank
+    - Hide and show correct tables at the correct time - DONE
+    - Hide input modal during error modal so that site looks cleaner - DONE
+    - Fix View Product Sales error when department has no sales - DONE
+    - Make hide, show, and empty tables consistent - DONE
+    - Eliminate backdrop close and esc close for all modals so that forms get reset - DONE
+    - Eliminate arrays declaration for ajax data - DONE
+    - Change all inputs to forms so than can be easily reset - DONE
+    - Fix dotenv problem by deleting node_modules and reinitiating all node packages - DONE
+    - Change canabalized bamazonCustomer to bamazonManager - DONE
+    - Clear forms after submit and close buttons - DONE
+        - Change quantity
+        - Add product
+        - Delete product
+        - Add department
+    - Clean up bamazonManager - DONE
+        - Delete customer code
+        - Delete comments and console.logs
+        - Comment
+    - Clean up server - DONE
+        - Delete customer code
+        - Delete comments and console.logs
+        - Comment
+    - Clean up style - DONE
+        - Delete unused code
+    - Align sales table columns - DONE
+    - Format product sales column in product table for currency - DONE
+    - Fix format currency to handle negative numbers - DONE
+    - Check Product Sales calculations - DONE
+    - Run locally with bamazon_db - DONE
+    - Update department options dynamically - DONE
+
+- Key or new skills
+    - HTML
+    - CSS
+    - Bootstrap
+    - JavaScript
+    - jQuery
+    - Node.js
+    - Express.js
+    - MySQL
+    
+- Bamazon Links
+    - Deployed: 
+    - GitHub repository: https://github.com/amcaron1/BamazonManager/
+
+- Portfolio Links
+    - Deployed: https://amcaron1.github.io/Bootstrap-Portfolio/
+    - GitHub repository: https://github.com/amcaron1/Bootstrap-Portfolio/
