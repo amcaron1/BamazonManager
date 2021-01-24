@@ -50,7 +50,7 @@ function formatCurrency(n) {
 }
 
 function formatPositiveCurrency(n) {
-    return "$ " + n.toFixed(2).replace(/./g, function (currentChar, currentIndex, inputString) {
+    return "$" + n.toFixed(2).replace(/./g, function (currentChar, currentIndex, inputString) {
         return currentIndex > 0 && currentChar !== "." && (inputString.length - currentIndex) % 3 === 0 ? "," + currentChar : currentChar;
     });
 }

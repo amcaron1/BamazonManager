@@ -58,7 +58,7 @@
     - MySQL
     
 - Bamazon Links
-    - Deployed: 
+    - Deployed: https://floating-savannah-06927.herokuapp.com/
     - GitHub repository: https://github.com/amcaron1/BamazonManager/
 
 - Portfolio Links
