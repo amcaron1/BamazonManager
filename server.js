@@ -25,18 +25,13 @@ app.use(express.json());
 app.use(express.static("public"));
 
 // Sets up the database connection parameters
-if (process.env.JAWSDB_URL) {
-    connection = mysql.createConnection(process.env.JAWSDB_URL);
-}
-else {
-    var connection = mysql.createConnection({
-        host: process.env.dbHost,
-        port: process.env.dbPort,
-        user: process.env.dbUser,
-        password: process.env.dbPassword,
-        database: process.env.dbDatabase
-    });
-}
+var connection = mysql.createConnection({
+    host: process.env.dbHost,
+    port: process.env.dbPort,
+    user: process.env.dbUser,
+    password: process.env.dbPassword,
+    database: process.env.dbDatabase
+});
 
 // Sets up the sever
 app.listen(PORT, function () {
