@@ -7,7 +7,7 @@ var express = require("express");
 // During execution, morgan logs requests to bash
 var logger = require("morgan");
 // mysql stores the database
-var mysql = require("mysql");
+var mysql = require("mysql2");
 
 // Initializes PORT
 var PORT = process.env.PORT || 3000;
